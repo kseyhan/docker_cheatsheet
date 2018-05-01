@@ -17,3 +17,6 @@ docker ps
 
 ### show settings of a container
 docker inspect <container_name | ID>
+
+### show resource usage
+docker stats
