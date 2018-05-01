@@ -22,6 +22,11 @@ docker rm <container_name | ID>
 docker rmi <image_name | ID>
 ```
 
+### remove unused volumes
+```
+docker volume prune
+```
+
 ---
 
 ### drop shell into running container
