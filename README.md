@@ -1,10 +1,13 @@
 # docker_cheatsheet
 
-## remove container
+### list all installed images
+docker images -a
+
+### remove container
 rm <container_name | ID>
 
-## remove image
+### remove image
 rmi <image_name | ID>
 
-## drop shell into running container
+### drop shell into running container
 docker exec -it "container_id" bash
