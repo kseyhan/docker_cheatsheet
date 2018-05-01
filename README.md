@@ -44,5 +44,5 @@ docker network connect [OPTIONS] NETWORK CONTAINER
 ### disconnect a running container from a network
 docker network disconnect [OPTIONS] NETWORK CONTAINER
 
-### renaming a Container
+### renaming a container
 docker rename CONTAINER NEW_NAME
