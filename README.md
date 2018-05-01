@@ -87,6 +87,18 @@ docker rename CONTAINER NEW_NAME
 
 ---
 
+### export a container to tarball
+```
+docker export red_panda > latest.tar
+```
+
+### import a container from tarball
+```
+docker import /path/to/latest.tar
+```
+
+---
+
 ### cpu constraints
 You can limit CPU, either using a percentage of all CPUs, or by using specific cores.
 
