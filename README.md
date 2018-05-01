@@ -91,6 +91,11 @@ docker rename CONTAINER NEW_NAME
 ```
 docker export red_panda > latest.tar
 ```
+```
+ID=$(docker run -d image-name /bin/bash)
+(docker export $ID | gzip -c > image.tgz)
+gzip -dc image.tgz | docker import - flat-image-name
+```
 
 ### import a container from tarball
 ```
