@@ -20,3 +20,6 @@ docker inspect <container_name | ID>
 
 ### show resource usage
 docker stats
+
+### search official image on docker hub
+docker search -f is-official=true <searchterm>
