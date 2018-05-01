@@ -23,3 +23,9 @@ docker stats
 
 ### search official image on docker hub
 docker search -f is-official=true <searchterm>
+
+### list configured networks
+docker network ls
+
+### connect a running container to a network
+docker network connect multi-host-network container1
