@@ -16,6 +16,9 @@ rmi <image_name | ID>
 ### drop shell into running container
 docker exec -it "container_id" bash
 
+### drop root shell into running container
+docker exec -u 0 -it "container_id" bash
+
 ---
 
 ### show running containers
