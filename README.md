@@ -51,7 +51,7 @@ docker inspect <container_name | ID>
 docker stats
 ```
 
-### container Logs
+### container logs
 ```
 docker logs <container_name | ID>
 ```
@@ -87,7 +87,7 @@ docker rename CONTAINER NEW_NAME
 
 ---
 
-### CPU Constraints
+### cpu constraints
 You can limit CPU, either using a percentage of all CPUs, or by using specific cores.
 
 For example, you can tell the cpu-shares setting. The setting is a bit strange -- 1024 means 100% of the CPU, so if you want the container to take 50% of all CPU cores, you should specify 512. See https://goldmann.pl/blog/2014/09/11/resource-management-in-docker/#_cpu for more:
@@ -101,7 +101,7 @@ docker run -ti --cpuset-cpus=0,4,6 agileek/cpuset-test
 ```
 Note that Docker can still see all of the CPUs inside the container -- it just isn't using all of them. See https://github.com/docker/docker/issues/20770 for more details.
 
-### Memory Constraints
+### memory constraints
 You can also set memory constraints on Docker:
 
 ```
