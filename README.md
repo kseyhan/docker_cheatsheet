@@ -3,14 +3,20 @@
 ### list all installed images
 docker images -a
 
+---
+
 ### remove container
 rm <container_name | ID>
 
 ### remove image
 rmi <image_name | ID>
 
+---
+
 ### drop shell into running container
 docker exec -it "container_id" bash
+
+---
 
 ### show running containers
 docker ps
@@ -20,6 +26,8 @@ docker inspect <container_name | ID>
 
 ### show resource usage
 docker stats
+
+---
 
 ### search official image on docker hub
 docker search -f is-official=true <searchterm>
