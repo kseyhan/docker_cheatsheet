@@ -51,6 +51,11 @@ docker inspect <container_name | ID>
 docker stats
 ```
 
+### container Logs
+```
+docker logs <container_name | ID>
+```
+
 ---
 
 ### list configured networks
@@ -78,11 +83,6 @@ docker search -f is-official=true <searchterm>
 ### renaming a container
 ```
 docker rename CONTAINER NEW_NAME
-```
-
-### container Logs
-```
-docker logs <container_name | ID>
 ```
 
 ---
