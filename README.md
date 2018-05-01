@@ -1,4 +1,4 @@
-# docker_cheatsheet
+# Docker Cheatsheet
 
 ### list all installed images
 ```
