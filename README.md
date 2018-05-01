@@ -3,6 +3,9 @@
 ### list all installed images
 docker images -a
 
+### list all installed containers
+docker container ls -a
+
 ---
 
 ### remove container
