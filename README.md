@@ -46,3 +46,6 @@ docker network disconnect [OPTIONS] NETWORK CONTAINER
 
 ### renaming a container
 docker rename CONTAINER NEW_NAME
+
+### container Logs
+docker logs <container_name | ID>
