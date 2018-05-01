@@ -36,4 +36,10 @@ docker search -f is-official=true <searchterm>
 docker network ls
 
 ### connect a running container to a network
-docker network connect multi-host-network container1
+docker network connect [OPTIONS] NETWORK CONTAINER
+
+### disconnect a running container from a network
+docker network disconnect [OPTIONS] NETWORK CONTAINER
+
+### renaming a Container
+docker rename CONTAINER NEW_NAME
